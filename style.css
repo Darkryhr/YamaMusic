@@ -32,5 +32,12 @@ nav ul a {
 .jumbotron-img {
     background: url('./img/jumbo2.png') center no-repeat fixed;
     background-size: cover;
-    padding: 7rem;
+    padding: 7rem 0 5rem 0;
+}
+
+.oswald-btn {
+    font-family: 'oswald', sans-serif;
+    font-size: 24px;
+    border-radius: 0;
+    padding: 1rem 2rem;
 }
