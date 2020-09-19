@@ -33,10 +33,4 @@ nav ul a {
     background: url('./img/jumbo2.png') center no-repeat fixed;
     background-size: cover;
     padding: 7rem;
-
-}
-
-.cusfont {
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: 600 !important;
 }
