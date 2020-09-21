@@ -44,4 +44,5 @@ nav ul a {
 
 .img-fix {
   max-width: 400px !important;
+  overflow: hidden;
 }
