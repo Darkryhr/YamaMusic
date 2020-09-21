@@ -1,43 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: rgb(255, 235, 235);
-    padding-top: 108px; 
+  background: rgb(255, 235, 235);
+  padding-top: 108px;
 }
 
 hr {
-    border-style: none;
-    height: 1px;
-    background: rgb(0, 0, 0);
+  border-style: none;
+  height: 1px;
+  background: rgb(0, 0, 0);
 }
 
 nav {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    background-color: #252525;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #252525;
 }
 
 nav ul a {
-    transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
 }
 
 .jumbotron-img {
-    background: url('./img/jumbo2.png') center no-repeat fixed;
-    background-size: cover;
-    padding: 7rem 0 5rem 0;
+  background: url("./img/jumbo2.png") center no-repeat fixed;
+  background-size: cover;
+  padding: 7rem 0 5rem 0;
 }
 
 .oswald-btn {
-    font-family: 'oswald', sans-serif;
-    font-size: 24px;
-    border-radius: 0;
-    padding: 1rem 2rem;
+  font-family: "oswald", sans-serif;
+  font-size: 24px;
+  border-radius: 0;
+  padding: 1rem 2rem;
+}
+
+.img-fix {
+  max-width: 400px;
 }
